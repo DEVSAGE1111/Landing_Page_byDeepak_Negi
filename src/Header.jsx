@@ -18,9 +18,9 @@ function Header() {
             <h1 className=' text-4xl md:text-6xl mt-4 md:mt-16 font-bold'>Success starts <br/>
                 with a great <br />
                 product</h1>
-                <p className=' pt-4 md:pt-8 font-sans '>Morbi leo tortor, fermentum sed orci vitae,<br/>
-                    tempor auctor turpis. Fusce bibendum <br/>
-                    accumsan fringilla. Nulla aliquam luctus <br/>
+                <p className=' pt-4 md:pt-8 font-sans '>Morbi leo tortor, fermentum sed orci vitae,<br className='hidden md:block'/>
+                    tempor auctor turpis. Fusce bibendum <br className='hidden md:block'/>
+                    accumsan fringilla. Nulla aliquam luctus <br className='hidden md:block'/>
                     sem, at posuere nibh lobortis et.</p>
 
             
