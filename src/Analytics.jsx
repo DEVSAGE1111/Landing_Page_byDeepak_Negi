@@ -3,7 +3,7 @@ import AnalyticsCard from './AnalyticsCard'
 
 function Analytics() {
   return (
-    <div  className='flex  flex-col md:flex-row items-center justify-center p-6 md:p-32 gap-2 md:gap-20 md:ml-12 font2'>
+    <div  className='flex  flex-col md:flex-row items-center justify-center p-12 md:p-32 gap-2 md:gap-20 md:ml-12 font2'>
       <img className='mb-12' src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/55cdb4b5-o-saas-product-shot.svg"/>
         <div className='flex flex-col gap-2 md:gap-8  pr-24'>
             <h1 className='text-3xl  text-blue-800'>Product analytics answers your<br className='hidden md:block'/> questions</h1>

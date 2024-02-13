@@ -26,9 +26,9 @@ function App() {
      </div>
      <hr className='border border-purple-600 mx-4 md:mx-40'/>
 
-     <div className='flex flex-col md:flex-row px-4 items-left md:justify-center  gap-4 md:gap-12 py-8  md:py-20'>
-      <h1 className=' text-2xl text-purple-800 '>A foundation built for <br/>scale and forsight</h1>
-      <p className='text-lg text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br className='hidden md:block'/> 
+     <div className='flex flex-col md:flex-row px-10 md:px-4 items-left md:justify-center  gap-4 md:gap-12 py-8  md:py-20'>
+      <h1 className=' text-2xl  text-purple-800 '>A foundation built for <br/>scale and forsight</h1>
+      <p className='text-lg   text-gray-600'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br className='hidden md:block'/> 
       Integer est tellus, pulvinar ac iaculis vel, varius eu arcu tor vestibulum.</p>
      </div>
      <VideoBox/>
