@@ -9,7 +9,7 @@ function PriceCard({plan,src,price,children,bg}) {
         <div className='flex flex-col'>
           {children}
         </div>
-          <button className="text-lovelypurple text-sm md:text-xl hover:border-lovelypurple bg-white px-4 hover:text-blue-800 border-gray-600 py-2  font-bold border rounded ">Choose Plan</button>
+          <button className="text-lovelypurple text-xl hover:border-lovelypurple bg-white px-4 hover:text-blue-800 border-gray-600 py-2  font-bold border rounded ">Choose Plan</button>
         
     </div>
   )
