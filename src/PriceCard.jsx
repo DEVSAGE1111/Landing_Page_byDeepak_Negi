@@ -2,7 +2,7 @@ import React from 'react'
 
 function PriceCard({plan,src,price,children,bg}) {
   return (
-    <div className={'flex flex-col justify-center items-center gap-8 border border-lovelypurple border-4 p-16 '+" " + bg}>
+    <div className={'flex flex-col justify-center w-auto items-center gap-8 border border-lovelypurple border-4 p-16 '+" " + bg}>
         <span className='text-gray-700 font-bold'>{plan}</span>
         <div><img src={src}/></div>
         <span className='text-3xl'>${price}/mo</span>
