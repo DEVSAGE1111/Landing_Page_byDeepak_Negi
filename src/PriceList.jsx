@@ -4,11 +4,11 @@ import PriceCard from './PriceCard'
 
 function PriceList() {
   return (
-    <div className='px-10 md:px-20 bg-white mx-16 relative -top-56 '>
+    <div className='px-10 md:px-20 bg-white mx-6 md:mx-16 relative -top-56 '>
       <div className='flex flex-col items-center gap-4  py-24  bg-white '>
       <h1 className='text-blue-800 text-4xl md:text-6xl font-sans'>The Pricing Plan</h1>
-      <center><span className='text-lg md:text-xl text-gray-600'>The most powerful analytics to understand how people use <br/>
-your app or website. Choose from any of our pricing plans that <br/>
+      <center><span className='text-lg md:text-xl text-gray-600'>The most powerful analytics to understand how people use <br className='hidden md:block'/>
+your app or website. Choose from any of our pricing plans that <br className='hidden md:block'/>
 work to fit you as you grow.</span></center>
   
 </div>
