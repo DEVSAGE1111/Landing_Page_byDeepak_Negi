@@ -2,9 +2,9 @@ import React from 'react'
 
 function Clients() {
   return (
-    <div className="bg-pink-400 flex flex-col gap-8 justify-center items-center pt-28 pb-72 font-bold text-gray-700">
-        <span >TRUSTED BY 250,000 HAPPY CUSTOMERS WORLDWIDE</span>
-        <div className="  gap-12 grid grid-cols-4 ">
+    <div className="bg-pink-400 flex flex-col gap-8 px-24 md:px-0 justify-center items-center pt-28 pb-72 font-bold text-gray-700">
+        <center><span className='font-serif' >TRUSTED BY 250,000 HAPPY CUSTOMERS WORLDWIDE</span></center>
+        <div className="  gap-12 grid grid-cols-2 md:grid-cols-4 ">
         <img clas src="//d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/183a6d2d-o-saas-logos-powerbull.svg" />
         <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/fd9fdc12-o-saas-logos-lifebook.svg"/>
         <img src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/83f9f8d5-o-saas-logos-javastar.svg"/>

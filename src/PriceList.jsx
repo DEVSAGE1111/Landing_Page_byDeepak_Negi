@@ -4,15 +4,15 @@ import PriceCard from './PriceCard'
 
 function PriceList() {
   return (
-    <div className='px-20 bg-white mx-16 relative -top-56 '>
+    <div className='px-10 md:px-20 bg-white mx-16 relative -top-56 '>
       <div className='flex flex-col items-center gap-4  py-24  bg-white '>
-      <h1 className='text-blue-800 text-6xl font-sans'>The Pricing Plan</h1>
-      <center><span className='text-xl text-gray-600'>The most powerful analytics to understand how people use <br/>
+      <h1 className='text-blue-800 text-4xl md:text-6xl font-sans'>The Pricing Plan</h1>
+      <center><span className='text-lg md:text-xl text-gray-600'>The most powerful analytics to understand how people use <br/>
 your app or website. Choose from any of our pricing plans that <br/>
 work to fit you as you grow.</span></center>
   
 </div>
-    <div className='flex justify-center gap-12 '>
+    <div className='flex flex-col md:flex-row justify-center gap-6 md:gap-12 '>
     <PriceCard plan="ESSENTIAL" price="75" src="https://d9hhrg4mnvzow.cloudfront.net/templates.unbounce.com/o-saas/c8b562bf-o-saas-essential-icon.svg">
         <span><b>Unlimited</b> projects</span>
         <span><b>Limited</b> core reports</span>

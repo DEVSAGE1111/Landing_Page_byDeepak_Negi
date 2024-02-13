@@ -3,9 +3,9 @@ import {FaCircleDot } from 'react-icons/fa6'
 
 function Contact() {
   return (
-    <div className='flex flex-col gap-4 px-24 py-16'>
+    <div className='flex flex-col gap-4 px-24 py-8 md:py-16'>
          <FaCircleDot className='text-3xl font-blacks' />
-         <div className='flex justify-center gap-36 '>
+         <div className='flex flex-col md:flex-row justify-center gap-6 md:gap-36 '>
             <div className='flex flex-col gap-4'>
                 <div className='flex flex-col gap-4'>
                 <h4 className='font-bold'>VANCOVER</h4>
